@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethernet Standards Overview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .speed-10 {
+            color: #e74c3c;
+        }
+        .speed-100 {
+            color: #f39c12;
+        }
+        .speed-1000 {
+            color: #27ae60;
+        }
+        .speed-10g {
+            color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align:center;">Ethernet Standards Overview</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Standard</th>
+                <th>Speed</th>
+                <th>Cable Type</th>
+                <th>Frequency</th>
+                <th>Max Distance</th>
+                <th>Applications</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10BASE-T</td>
+                <td class="speed-10">10 Mbps</td>
+                <td>Cat3+</td>
+                <td>16 MHz</td>
+                <td>100 m</td>
+                <td>Legacy LANs, basic offices (obsolete)</td>
+            </tr>
+            <tr>
+                <td>100BASE-T</td>
+                <td class="speed-100">100 Mbps</td>
+                <td>Cat5+</td>
+                <td>100 MHz</td>
+                <td>100 m</td>
+                <td>Home networks, small offices</td>
+            </tr>
+            <tr>
+                <td>1000BASE-T</td>
+                <td class="speed-1000">1 Gbps</td>
+                <td>Cat5e/Cat6+</td>
+                <td>250 MHz</td>
+                <td>100 m</td>
+                <td>Modern LANs, business networks, data centers</td>
+            </tr>
+            <tr>
+                <td>10GBASE-T</td>
+                <td class="speed-10g">10 Gbps</td>
+                <td>Cat6A/Cat7+</td>
+                <td>500 MHz</td>
+                <td>100 m</td>
+                <td>Data centers, high-speed backbones</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer style="text-align:center; margin-top:20px;">
+        <p>Learn more about networking concepts like <strong>Auto-MDIX</strong> and Ethernet standards on my <a href="https://github.com/Moyinoluwa-a/ethernet-standards" target="_blank" style="color:#3498db;">GitHub repository</a>.</p>
+    </footer>
+</body>
+</html>
